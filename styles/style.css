@@ -55,7 +55,7 @@
 
 .section-desc{
     color: #757575;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -137,7 +137,7 @@ nav li a{
 
 main{
     max-width: 1540px;
-    max-height: 550px;
+   
     
 }
 
@@ -237,4 +237,28 @@ main section{
 
 .resume hr{
     margin-top: 30px 5px;
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    gap: 116px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    
+}
+
+.footer-column{
+    width: 50%;
+    
+}
+
+.footer-column input[type="text"], input[type="email"], textarea{
+    display: block;
+    padding: 18px 30px;
+    background-color: white;
+    border: none;
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 5px;
 }
