@@ -46,6 +46,23 @@
     margin-left: 30px;
 }
 
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-desc{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text-center{
+    text-align: center;
+}
+
 /* header styles */
 
 .header{
@@ -53,6 +70,8 @@
     background-repeat: no-repeat;
     background-position: top left, right bottom;
     height: 820px;
+    background-color: #FFF8F3;
+    
 }
 
 /* Nav Styles */
@@ -60,7 +79,6 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
     margin-left: 230px;
     margin-right: 230px;
 }
@@ -95,6 +113,10 @@ nav li a{
    
 }
 
+.banner-content{
+    max-width: 585px;
+}
+
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
@@ -111,3 +133,108 @@ nav li a{
     font-weight: 400;
 }
 
+/* main styles */
+
+main{
+    max-width: 1540px;
+    max-height: 550px;
+    
+}
+
+main section{
+    margin: 130px 230px;
+    
+}
+
+/* About styles */
+.about{
+    text-align: center;
+
+    background-color: #FFF8F3;
+    padding: 110px 150px;
+    border-radius: 5px;
+    
+}
+
+.about-content{
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.item-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.item-desc{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Skill styles*/
+
+
+.skill-info{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    background: #FFF;
+}
+
+/* resume styles */
+
+.resume-column-container{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.resume-subtitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-desc{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 47px;
+}
+
+.resume hr{
+    margin-top: 30px 5px;
+}
